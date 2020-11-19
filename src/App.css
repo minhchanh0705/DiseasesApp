@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+.DataDisease {
+  width: 100%;
+  height: 100%;
+  align-content: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tittleOfTable {
+  color: rgb(79, 75, 67);
+  font-size: 25px;
+  padding: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.tableDisease {
+  width: 100%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border: solid 1px white;
+  border-collapse: collapse;
+}
+
+.headerTable {
+  border: solid 1px white;
   color: white;
+  font-size: 15px;
+  padding: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.disease {
+  width: 20%;
+  background-color: rgb(98, 140, 214);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cases {
+  background-color: rgb(99, 188, 94);
+}
+
+.deaths {
+  background-color: rgb(219, 78, 78);
+}
+
+.contentTable {
+  color: rgb(53, 24, 24);
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  padding: 12px;
+}
+
+.casesContent {
+  color: rgb(0, 163, 54);
+}
+
+.diseaseName {
+  background-color: rgb(226, 237, 255);
+  text-align: right;
+}
+
+.deathsContent {
+  color: rgb(209, 0, 0);
+}
+
+.tittleOfTable {
+  text-align: center;
+  font-weight: bold;
+}
+
+.downIcon {
+  color: rgb(0, 163, 54);
+}
+
+.nothingIcon {
+  color: rgb(115, 115, 115);
+}
+
+.upIcon {
+  color: rgb(209, 0, 0);
 }
