@@ -1,8 +1,14 @@
-.DataDisease {
+.DataDiseases {
   width: 100%;
   height: 100%;
   align-content: center;
 }
+
+button {
+  padding: 10px;
+  margin: 10px;
+}
+
 .tittleOfTable {
   color: rgb(79, 75, 67);
   font-size: 25px;
@@ -23,16 +29,26 @@
 }
 
 .disease {
-  width: 20%;
+  width: 22%;
   background-color: rgb(98, 140, 214);
 }
 
-.cases {
+.casesHeader1 {
   background-color: rgb(99, 188, 94);
 }
 
-.deaths {
+.deathsHeader1 {
   background-color: rgb(219, 78, 78);
+}
+
+.casesHeader2 {
+  background-color: rgb(99, 188, 94);
+  width: 7.8%;
+}
+
+.deathsHeader2 {
+  background-color: rgb(219, 78, 78);
+  width: 7.8%;
 }
 
 .contentTable {
