@@ -15,17 +15,12 @@ function DataDiseases() {
       <p>{user.User.name}</p>
       <button
         onClick={() => {
-          i18n.language === "en" && i18n.changeLanguage("vi");
+          i18n.language === "en"
+            ? i18n.changeLanguage("vi")
+            : i18n.changeLanguage("en");
         }}
       >
-        VI
-      </button>
-      <button
-        onClick={() => {
-          i18n.language === "vi" && i18n.changeLanguage("en");
-        }}
-      >
-        EN
+        {i18n.language === "en" ? "Vietnamese" : "Tiếng Anh"}
       </button>
       <table className="tableDisease">
         <caption className="tittleOfTable">{t("DiseaseData")}</caption>
@@ -45,12 +40,12 @@ function DataDiseases() {
           <tr>
             <th className="headerTable casesHeader2">{t("Week")} 27</th>
             <th className="headerTable casesHeader2">{t("Week")} 26</th>
-            <th className="headerTable casesHeader2">{t("Status")}</th>
+            <th className="headerTable casesHeaderStatus">{t("Status")}</th>
             <th className="headerTable casesHeader2">2017 {t("Week")} 27</th>
             <th className="headerTable casesHeader2">2018 {t("Week")} 27</th>
             <th className="headerTable deathsHeader2">{t("Week")} 27</th>
             <th className="headerTable deathsHeader2">{t("Week")} 26</th>
-            <th className="headerTable deathsHeader2">{t("Status")}</th>
+            <th className="headerTable deathsHeaderStatus">{t("Status")}</th>
             <th className="headerTable deathsHeader2">2017 {t("Week")} 27</th>
             <th className="headerTable deathsHeader2">2018 {t("Week")} 27</th>
           </tr>
@@ -71,8 +66,6 @@ function DataDiseases() {
                 <td className="contentTable diseaseName">
                   {i18n.language === "vi" ? e.vi : e.en}
                 </td>
-                {/* <td className="contentTable casesContent">{e.CasesW27}</td>
-                <td className="contentTable casesContent">{e.CasesW26}</td> */}
 
                 {/* Cases */}
                 <td className="contentTable casesContent">{casesW27}</td>
