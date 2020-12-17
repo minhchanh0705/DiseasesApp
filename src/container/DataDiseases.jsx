@@ -34,8 +34,8 @@ function DataDiseases() {
 
   return (
     <div className="DataDiseases">
-      {/* <p>{user.User.name}</p> */}
       <button
+        class="btn"
         onClick={() => {
           i18n.language === "en"
             ? i18n.changeLanguage("vi")
@@ -139,7 +139,7 @@ function DataDiseases() {
                   <td className="contentTable upIcon">
                     <ArrowUpward></ArrowUpward>
                   </td>
-                ) : e.StatusCases === "decrease" ? (
+                ) : deathsThisWeek < deathsLastWeek ? (
                   <td className="contentTable downIcon">
                     <ArrowDownward></ArrowDownward>
                   </td>

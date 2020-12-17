@@ -1,0 +1,41 @@
+#container {
+  width: 30%;
+  /* background-color: navajowhite; */
+}
+strong {
+  padding-right: 5px;
+}
+.region {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(196, 194, 194);
+}
+.rowData {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0px 20px 0px 20px;
+}
+#regions {
+  padding: 10px 30px 10px 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+p {
+  padding: 10px;
+  font-size: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.week {
+  padding: 10px 0px 10px 0px;
+}
+.figure {
+  align-self: center;
+  width: 30%;
+  margin-left: 10px;
+  font-size: 18px;
+}

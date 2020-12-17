@@ -1,0 +1,63 @@
+#container {
+  width: 30%;
+  background-color: navajowhite;
+}
+#flex-container {
+}
+
+.region {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 5px;
+  border-bottom: 1px solid gray;
+}
+#northRegion {
+  padding: 15px 60px 15px 60px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #d4483e;
+}
+#southRegion {
+  padding: 15px 60px 15px 60px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f19336;
+}
+#centralRegion {
+  padding: 15px 60px 15px 60px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #5b9c52;
+}
+#centralHighlandRegion {
+  justify-content: space-around;
+  padding: 15px 60px 15px 60px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #3678cc;
+}
+p {
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.week {
+  padding: 10px 0px 10px 0px;
+}
+.figure {
+  padding: 10px 0px 10px 0px;
+  font-size: 5px;
+}
+.figureColumm {
+  padding: 15px 0px 15px 0px;
+  justify-content: space-around;
+}
+#test {
+  background-color: red;
+}

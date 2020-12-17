@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./css/index.css";
 import DataDiseases from "./container/DataDiseases";
+import Covid from "./container/Covid";
 import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
 import vi from "./translations/vi.json";
@@ -23,7 +24,8 @@ ReactDOM.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
       <DiseasesProvider>
-        <DataDiseases />
+        {/* <DataDiseases /> */}
+        <Covid />
       </DiseasesProvider>
     </I18nextProvider>
   </React.StrictMode>,

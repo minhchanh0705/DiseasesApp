@@ -1,0 +1,250 @@
+{
+  "Place1": {
+    "W39": {
+      "figures": {
+        "cases": 2,
+        "deaths": 0
+      }
+    },
+    "W40": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W41": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W42": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W43": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W44": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W45": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W46": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W47": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W48": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    }
+  },
+  "Place2": {
+    "W39": {
+      "figures": {
+        "cases": 5,
+        "deaths": 2
+      }
+    },
+    "W40": {
+      "figures": {
+        "cases": 3,
+        "deaths": 0
+      }
+    },
+    "W41": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W42": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W43": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W44": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W45": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W46": {
+      "figures": {
+        "cases": 15,
+        "deaths": 2
+      }
+    },
+    "W47": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W48": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    }
+  },
+  "Place3": {
+    "W39": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W40": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W41": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W42": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W43": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W44": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W45": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W46": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W47": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W48": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    }
+  },
+  "Place4": {
+    "W39": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W40": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W41": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W42": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W43": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W44": {
+      "figures": {
+        "cases": 5,
+        "deaths": 3
+      }
+    },
+    "W45": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W46": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W47": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    },
+    "W48": {
+      "figures": {
+        "cases": 0,
+        "deaths": 0
+      }
+    }
+  }
+}
